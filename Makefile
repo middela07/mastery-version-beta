@@ -31,10 +31,10 @@ $(BIN_DIR)/%.o: %.c | $(BIN_DIR)
 
 # Debug target (compiles with debug flags)
 maui: CFLAGS += $(DEBUG_FLAGS)
-maui: $(EXEC)
+maui: moana
 
 # Checks all outputs for all test cases
-hei: $(EXEC)
+hei: moana
 	@for testfile in testcases/*; do \
 		echo "Running $$testfile..."; \
 		./$(EXEC) -f $$testfile; \
