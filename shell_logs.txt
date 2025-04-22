@@ -1,0 +1,30 @@
+ 498  ls
+  499  git clone git@github.com:middela07/mastery-version-beta.git
+  500  ls
+  501  ls
+  502  make moana
+  503  make maui
+  504  make hei
+  505  make tamatoa
+  506  make nalo
+  507  bin/second_trie testcases/dinosaurs.in
+  508  bin/second_trie -w testcases/dinosaurs.in
+  509  bin/second_trie -h
+  510  make moana
+  511  bin/second_trie -h
+  512  bin/second_trie -f testcases/dinosaurs.in
+  513  make nalo
+  514  make maui
+  515  gdb bin/second_trie
+  516  make nalo
+  517  make moana
+  518  trie_ref -f testcases/dinosaurs.in
+  519  make tamatoa
+  520  make hei
+  521  make tamatoa
+  522  history
+  523  touch shell_logs.txt
+  524  ls
+  525  cat shell_logs
+  526  cat shell_logs.txt
+  527  history
